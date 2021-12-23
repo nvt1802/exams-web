@@ -6,7 +6,7 @@ import Header from "components/layout/header"
 import Sidebar from "components/layout/sidebar"
 import './app.css'
 
-function App(props: any) {
+function App(_props: any) {
   return (
     <BrowserRouter>
       <Layout style={{ height: "100%", position: "fixed" }}>
